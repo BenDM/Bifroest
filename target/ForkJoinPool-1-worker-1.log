@@ -1,0 +1,69 @@
+11:11:19.542 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:11:20.053 request:
+1 > GET http://localhost:8080/
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_241)
+
+11:11:20.127 response time in milliseconds: 73,12
+1 < 403
+1 < Content-Length: 806
+1 < Content-Type: text/html;charset=utf-8
+1 < Date: Sat, 21 Mar 2020 10:11:20 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Server: Jetty(9.4.27.v20200227)
+1 < Set-Cookie: JSESSIONID.be8a6457=node0zc2ba7ju7fqr18qkdbrzjabcc6.node0; Path=/; HttpOnly
+1 < X-Content-Type-Options: nosniff
+1 < X-Hudson: 1.395
+1 < X-Jenkins: 2.226
+1 < X-Jenkins-Session: 5231eb68
+1 < X-Permission-Implied-By: [hudson.security.Permission.GenericRead, hudson.model.Hudson.Administer]
+1 < X-Required-Permission: hudson.model.Hudson.Read
+1 < X-You-Are-Authenticated-As: anonymous
+1 < X-You-Are-In-Group-Disabled: JENKINS-39402: use -Dhudson.security.AccessDeniedException2.REPORT_GROUP_HEADERS=true or use /whoAmI to diagnose
+<html><head><meta http-equiv='refresh' content='1;url=/login?from=%2F'/><script>window.location.replace('/login?from=%2F');</script></head><body style='background-color:white; color:white;'>
+
+
+Authentication required
+<!--
+You are authenticated as: anonymous
+Groups that you are in:
+  
+Permission you need to have (but didn't): hudson.model.Hudson.Read
+ ... which is implied by: hudson.security.Permission.GenericRead
+ ... which is implied by: hudson.model.Hudson.Administer
+-->
+
+</body></html>                                                                                                                                                                                                                                                                                                            
+
+11:11:20.185 status code was: 403, expected: 200, response time: 73, url: http://localhost:8080/, response: <html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="1;url=/login?from=%2F" http-equiv="refresh">
+<script>window.location.replace('/login?from=%2F');</script>
+</head>
+<body style="background-color:white; color:white;">
+
+
+Authentication required
+<!--
+You are authenticated as: anonymous
+Groups that you are in:
+  
+Permission you need to have (but didn't): hudson.model.Hudson.Read
+ ... which is implied by: hudson.security.Permission.GenericRead
+ ... which is implied by: hudson.model.Hudson.Administer
+-->
+
+</body>
+</html>
+
+ster
+-->
+
+</body>
+</html>
+
+
+
