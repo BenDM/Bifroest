@@ -18,7 +18,7 @@ pipeline{
                 stage('Cucumber Reports2'){
                      steps{
                            cucumber buildStatus: 'SUCCESS',
-                           fileIncludePattern: "**/com.dvag.bifroest.get-test.json",
+                           fileIncludePattern: "**/results-json.txt",
                            jsonReportDirectory: 'target/surefire-reports'
                      }
                 }
