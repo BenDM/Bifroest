@@ -13,8 +13,12 @@ pipeline{
         }
 
          stage('Results'){
-            junit 'JenkinsTest/target/surefire-reports/*.xml'
+         steps{
+                     junit 'JenkinsTest/target/surefire-reports/*.xml'
+
+         }
         }
+
         stage('Cucumber Reports'){
              steps{
                    cucumber buildStatus: 'SUCCESS',
