@@ -15,35 +15,11 @@ pipeline{
                      bat 'mvn test'
             }
         }
-
-         stage('Results'){
-         steps{
-                     junit 'target/surefire-reports/*.xml'
-
-         }
-        }
-        stage ('Build') {
-            steps {
-                bat 'mvn -Dmaven.test.failure.ignore=true install'
-            }
-            post {
-                success {
-                    junit 'target/surefire-reports/**/*.xml'
-                }
-            }
-        }
-        stage('Cucumber Reports'){
-             steps{
-                   cucumber buildStatus: 'SUCCESS',
-                   fileIncludePattern: "**/cucumber.json",
-                   jsonReportDirectory: 'target'
-             }
-        }
                 stage('Cucumber Reports2'){
                      steps{
                            cucumber buildStatus: 'SUCCESS',
                            fileIncludePattern: "**/com.dvag.bifroest.get-test.json",
-                           jsonReportDirectory: 'target/surefire-reports'
+                           jsonReportDirectory: 'target'
                      }
                 }
     }
