@@ -9,19 +9,18 @@ pipeline{
             }
         }
         stage('Test Stage'){
-                         steps{
-                             withMaven(maven: 'maven_3_5_0'){
-                                 sh 'mvn test'
-                             }
-                         }
-                     }
-                     stage('Cucumber Reports'){
-                         steps{
-                             cucumber buildStatus: 'SUCCESS',
-                                 fileIncludePattern: "**/cucumber.json",
-                                 jsonReportDirectory: 'target'
-                             }
-                         }
+            steps{
+                 withMaven(maven: 'maven_3_5_0'){
+                     sh 'mvn test'
+                 }
+            }
+        }
+        stage('Cucumber Reports'){
+             steps{
+                   cucumber buildStatus: 'SUCCESS',
+                   fileIncludePattern: "**/cucumber.json",
+                   jsonReportDirectory: 'target'
+             }
         }
     }
 }
