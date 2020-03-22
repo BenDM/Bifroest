@@ -39,5 +39,12 @@ pipeline{
                    jsonReportDirectory: 'target'
              }
         }
+                stage('Cucumber Reports2'){
+                     steps{
+                           cucumber buildStatus: 'SUCCESS',
+                           fileIncludePattern: "**/com.dvag.bifroest.get-test.json",
+                           jsonReportDirectory: 'target/surefire-reports'
+                     }
+                }
     }
 }
