@@ -18,8 +18,7 @@ pipeline{
                 stage('Cucumber Reports2'){
                      steps{
                            cucumber buildStatus: 'SUCCESS',
-                           fileIncludePattern: "**/results-json.txt",
-                           jsonReportDirectory: 'target/surefire-reports'
+                           fileIncludePattern: "results-json.txt"
                      }
                 }
     }

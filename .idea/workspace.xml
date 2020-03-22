@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edcef8c7-42b1-49df-a106-704b3d01bc73" name="Default Changelist" comment="">
+    <list default="true" id="edcef8c7-42b1-49df-a106-704b3d01bc73" name="Default Changelist" comment="update1334901334kwhh">
+      <change afterPath="$PROJECT_DIR$/results-json.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
@@ -58,6 +59,7 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\simo2\IdeaProjects\JenkinsTest" />
+      <recent name="C:\Users\simo2\IdeaProjects\JenkinsTest\target" />
       <recent name="C:\Users\simo2\IdeaProjects\JenkinsTest\src\test\java" />
     </key>
   </component>
@@ -393,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584919843168</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="update1334901334kw">
+      <created>1584920194778</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1584920194778</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -408,7 +417,8 @@
     <MESSAGE value="update133490133" />
     <MESSAGE value="update1334901334" />
     <MESSAGE value="update1334901334k" />
-    <option name="LAST_COMMIT_MESSAGE" value="update1334901334k" />
+    <MESSAGE value="update1334901334kw" />
+    <option name="LAST_COMMIT_MESSAGE" value="update1334901334kw" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Plugins" timestamp="1584781145816">
@@ -423,10 +433,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="272" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1584893081375" />
-    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1584919842316">
+    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1584920331853">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584919842316" />
+    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584920331853" />
     <state width="407" height="466" key="DebuggerActiveHint" timestamp="1584784630338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -471,10 +481,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584913594031" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1584919846083">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1584920196561">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584919846083" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584920196561" />
     <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584781136201">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
