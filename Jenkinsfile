@@ -3,12 +3,12 @@ pipeline{
     stages{
         stage('Compile Stage'){
             steps{
-                    bat 'mvn clean install'
+                    sh 'mvn clean install'
             }
         }
         stage('Test Stage'){
             steps{
-                     bat 'mvn test'
+                     sh 'mvn test'
             }
         }
         stage('Cucumber Reports'){
