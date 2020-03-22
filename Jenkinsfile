@@ -1,20 +1,24 @@
 pipeline{
     agent any
+        tools {
+            maven 'Maven 3.6.1'
+            jdk 'jdk8'
+        }
     stages{
         stage('Compile Stage'){
             steps{
-                    bat 'mvn clean install'
+                    sh 'mvn clean install'
             }
         }
         stage('Test Stage'){
             steps{
-                     bat 'mvn test'
+                     sh 'mvn test'
             }
         }
 
          stage('Results'){
          steps{
-                     junit 'JenkinsTest/target/surefire-reports/*.xml'
+                     junit 'target/surefire-reports/*.xml'
 
          }
         }
