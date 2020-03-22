@@ -1,12 +1,12 @@
-<testsuite failures="1" name="com/dvag/bifroest/get-test.feature" skipped="0" tests="1" time="0.621088">
-  <testcase classname="com.dvag.bifroest.get-test" name="Get the information of all the users" time="0.621088">
-    <failure message="get-test.feature:8 - status code was: 403, expected: 200, response time: 26, url: http://localhost:8080/, response: &lt;html&gt;&#13;&#10;&lt;head&gt;&#13;&#10;&lt;META http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;&#13;&#10;&lt;meta content=&quot;1;url=/login?from=%2F&quot; http-equiv=&quot;refresh&quot;&gt;&#13;&#10;&lt;script&gt;window.location.replace('/login?from=%2F');&lt;/script&gt;&#13;&#10;&lt;/head&gt;&#13;&#10;&lt;body style=&quot;background-color:white; color:white;&quot;&gt;&#13;&#10;&#13;&#10;&#13;&#10;Authentication required&#13;&#10;&lt;!--&#10;You are authenticated as: anonymous&#10;Groups that you are in:&#10;  &#10;Permission you need to have (but didn't): hudson.model.Hudson.Read&#10; ... which is implied by: hudson.security.Permission.GenericRead&#10; ... which is implied by: hudson.model.Hudson.Administer&#10;--&gt;&#13;&#10;&#13;&#10;&lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;">* url 'http://localhost:8080' ............................................. passed
+<testsuite failures="1" name="com/dvag/bifroest/get-test.feature" skipped="0" tests="1" time="0.604903">
+  <testcase classname="com.dvag.bifroest.get-test" name="Get the information of all the users" time="0.604903">
+    <failure message="get-test.feature:8 - status code was: 403, expected: 200, response time: 36, url: http://localhost:8080/, response: &lt;html&gt;&#13;&#10;&lt;head&gt;&#13;&#10;&lt;META http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;&#13;&#10;&lt;meta content=&quot;1;url=/login?from=%2F&quot; http-equiv=&quot;refresh&quot;&gt;&#13;&#10;&lt;script&gt;window.location.replace('/login?from=%2F');&lt;/script&gt;&#13;&#10;&lt;/head&gt;&#13;&#10;&lt;body style=&quot;background-color:white; color:white;&quot;&gt;&#13;&#10;&#13;&#10;&#13;&#10;Authentication required&#13;&#10;&lt;!--&#10;You are authenticated as: anonymous&#10;Groups that you are in:&#10;  &#10;Permission you need to have (but didn't): hudson.model.Hudson.Read&#10; ... which is implied by: hudson.security.Permission.GenericRead&#10; ... which is implied by: hudson.model.Hudson.Administer&#10;--&gt;&#13;&#10;&#13;&#10;&lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;">* url 'http://localhost:8080' ............................................. passed
 Given path '/' ............................................................ passed
 When method get ........................................................... passed
 Then status 200 ........................................................... failed
 
 Stack Trace:
-com.intuit.karate.exception.KarateException: get-test.feature:8 - status code was: 403, expected: 200, response time: 26, url: http://localhost:8080/, response: &lt;html&gt;&#13;
+com.intuit.karate.exception.KarateException: get-test.feature:8 - status code was: 403, expected: 200, response time: 36, url: http://localhost:8080/, response: &lt;html&gt;&#13;
 &lt;head&gt;&#13;
 &lt;META http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;&#13;
 &lt;meta content="1;url=/login?from=%2F" http-equiv="refresh"&gt;&#13;
