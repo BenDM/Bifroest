@@ -14,11 +14,7 @@ pipeline{
             steps{
                      bat 'mvn test'
             }
+            cucumber fileIncludePattern: '**/*.json', jsonReportDirectory: 'target/surefire-reports'
         }
-                stage('Cucumber Reports'){
-                     steps{
-                           cucumber fileIncludePattern: '**/target/surefire-reports/*.json'
-                     }
-                }
     }
 }
