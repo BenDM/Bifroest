@@ -1,6 +1,4 @@
-# new feature
-# Tags: optional
-
+@ignore
 Feature: A description
 
   Scenario: Hearing your snake you anticipate sound
