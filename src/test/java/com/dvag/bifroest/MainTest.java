@@ -22,7 +22,7 @@ public class MainTest {
     @Test
     void testParallel() {
         Results results = Runner.path("classpath:com/dvag/bifroest").tags("~@ignore").parallel(1);
-        generateReport(results.getReportDir());
+       // generateReport(results.getReportDir());
 
         // assertEquals( 0, results.getFailCount(), results.getErrorMessages());
     }
