@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edcef8c7-42b1-49df-a106-704b3d01bc73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/com/dvag/bifroest/get-test1.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/com/dvag/bifroest/get-test2.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dvag/bifroest/CucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dvag/bifroest/CucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/dvag/bifroest/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dvag/bifroest/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/com/dvag/bifroest/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/com/dvag/bifroest/test.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/com/dvag/bifroest/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,22 +42,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/com/dvag/bifroest" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\simo2\IdeaProjects\JenkinsTest\src\test\resources" />
-      <recent name="C:\Users\simo2\IdeaProjects\JenkinsTest\src\main\resources\com\dvg\bifroest" />
-      <recent name="C:\Users\simo2\IdeaProjects\JenkinsTest\src\test\java\com\dvag\bifroest" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.dvag.bifroest" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="bifroest" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\simo2\IdeaProjects\JenkinsTest\src\test\resources\com\dvag\bifroest" />
@@ -68,8 +57,16 @@
       <recent name="C:\Users\simo2\IdeaProjects\JenkinsTest\target" />
       <recent name="C:\Users\simo2\IdeaProjects\JenkinsTest\src\test\java" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bifroest" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\simo2\IdeaProjects\JenkinsTest\src\test\resources" />
+      <recent name="C:\Users\simo2\IdeaProjects\JenkinsTest\src\main\resources\com\dvg\bifroest" />
+      <recent name="C:\Users\simo2\IdeaProjects\JenkinsTest\src\test\java\com\dvag\bifroest" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest">
+  <component name="RunManager" selected="Maven.JenkinsTest [test]">
     <configuration name="CucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JenkinsTest" />
       <extension name="coverage">
@@ -116,8 +113,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JenkinsTest [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#JAVA_INTERNAL" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CucumberTest" />
+      <item itemvalue="JUnit.MainTest" />
+      <item itemvalue="JUnit.MainTest.testParallel" />
+      <item itemvalue="Maven.JenkinsTest [test]" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Maven.JenkinsTest [test]" />
         <item itemvalue="JUnit.MainTest" />
         <item itemvalue="JUnit.CucumberTest" />
         <item itemvalue="JUnit.MainTest.testParallel" />
@@ -415,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584920372424</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="update1334901334kwhhtl">
+      <created>1584960112092</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1584960112092</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -432,13 +483,18 @@
     <MESSAGE value="update1334901334k" />
     <MESSAGE value="update1334901334kw" />
     <MESSAGE value="update1334901334kwhht" />
-    <option name="LAST_COMMIT_MESSAGE" value="update1334901334kwhht" />
+    <MESSAGE value="update1334901334kwhhtl" />
+    <option name="LAST_COMMIT_MESSAGE" value="update1334901334kwhhtl" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Plugins" timestamp="1584781145816">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1584781145816" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584961445837">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584961445837" />
     <state x="524" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584895374605">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -447,61 +503,72 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="272" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1584893081375" />
-    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1584920371426">
+    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1584960111225">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584920371426" />
+    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584960111225" />
     <state width="407" height="466" key="DebuggerActiveHint" timestamp="1584784630338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="407" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1584784630338" />
-    <state width="1333" height="174" key="GridCell.Tab.0.bottom" timestamp="1584960083020">
+    <state width="1330" height="338" key="GridCell.Tab.0.bottom" timestamp="1584961504897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1333" height="174" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584960083020" />
-    <state width="1333" height="174" key="GridCell.Tab.0.center" timestamp="1584960083020">
+    <state width="1330" height="338" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584961504897" />
+    <state width="1330" height="338" key="GridCell.Tab.0.center" timestamp="1584961504897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1333" height="174" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584960083020" />
-    <state width="1333" height="174" key="GridCell.Tab.0.left" timestamp="1584960083020">
+    <state width="1330" height="338" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584961504897" />
+    <state width="1330" height="338" key="GridCell.Tab.0.left" timestamp="1584961504897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1333" height="174" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584960083020" />
-    <state width="1333" height="174" key="GridCell.Tab.0.right" timestamp="1584960083020">
+    <state width="1330" height="338" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584961504897" />
+    <state width="1330" height="338" key="GridCell.Tab.0.right" timestamp="1584961504897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1333" height="174" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584960083020" />
-    <state width="746" height="91" key="GridCell.Tab.1.bottom" timestamp="1584952084591">
+    <state width="1330" height="338" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584961504897" />
+    <state width="985" height="253" key="GridCell.Tab.1.bottom" timestamp="1584961037034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="91" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584952084591" />
-    <state width="746" height="91" key="GridCell.Tab.1.center" timestamp="1584952084590">
+    <state width="985" height="253" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584961037034" />
+    <state width="985" height="253" key="GridCell.Tab.1.center" timestamp="1584961037034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="91" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584952084590" />
-    <state width="746" height="91" key="GridCell.Tab.1.left" timestamp="1584952084590">
+    <state width="985" height="253" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584961037034" />
+    <state width="985" height="253" key="GridCell.Tab.1.left" timestamp="1584961037034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="91" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584952084590" />
-    <state width="746" height="91" key="GridCell.Tab.1.right" timestamp="1584952084591">
+    <state width="985" height="253" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584961037034" />
+    <state width="985" height="253" key="GridCell.Tab.1.right" timestamp="1584961037034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="91" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584952084591" />
+    <state width="985" height="253" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584961037034" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1584875603092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1584875603092" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1584913594031">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1584961329386">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584913594031" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1584920374119">
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584961329386" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1584960113352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584920374119" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584960113352" />
     <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584781136201">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584781136201" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/dvag/bifroest/MainTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
