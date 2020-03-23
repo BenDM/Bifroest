@@ -18,7 +18,6 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-@RunWith(Cucumber.class)
 public class MainTest {
     @Test
     void testParallel() {
