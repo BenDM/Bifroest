@@ -7,24 +7,33 @@ pipeline{
     stages{
         stage('Compile Stage'){
              steps {
-                        bat'mvn clean compile'
+                        bat'mvn clean'
                 }
         }
         stage('Test Stage'){
             steps{
-                     bat 'mvn test'
+                     bat 'mvn compile'
             }
         }
 
-         stage('Results'){
-         steps{
-                     junit 'target/surefire-reports/*.xml'
+                stage('Test [Entwicklung]') {
+                    when { branch 'develop' }
+                    steps {
+                        script {
+                            try {
+                                withMaven {
+                                    bat 'mvn test'
+                                }
+                            } finally {
+                                cucumber fileIncludePattern: '**/*.json', jsonReportDirectory: 'target/surefire-reports'
+                            }
+                        }
+                    }
+                }
 
-         }
-        }
         stage ('Build') {
             steps {
-                bat 'mvn -Dmaven.test.failure.ignore=true install'
+                bat 'mvn install'
             }
             post {
                 success {
