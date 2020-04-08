@@ -17,7 +17,6 @@ pipeline{
         }
 
                 stage('Test [Entwicklung]') {
-                    when { branch 'develop' }
                     steps {
                         script {
                             try {
