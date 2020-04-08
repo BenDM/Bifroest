@@ -21,7 +21,7 @@ pipeline{
                         script {
                             try {
                                 withMaven {
-                                    bat 'mvn test'
+                                    bat 'mvn clean test-compile'
                                 }
                             } finally {
                                 cucumber fileIncludePattern: '**/*.json', jsonReportDirectory: 'target/surefire-reports'
