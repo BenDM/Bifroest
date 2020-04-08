@@ -5,4 +5,4 @@ Feature: Get Users
 
     Given path ''
     When method get
-    Then status 201
+    Then status 200
