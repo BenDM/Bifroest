@@ -34,17 +34,10 @@ pipeline{
             steps {
                 bat 'mvn install'
             }
-            post {
-                success {
-                    junit 'target/surefire-reports/**/*.xml'
-                }
-            }
         }
-        stage('Cucumber Reports'){
+        stage('clean'){
              steps{
-                   cucumber buildStatus: 'SUCCESS',
-                   fileIncludePattern: "**/cucumber.json",
-                   jsonReportDirectory: 'target'
+                        bat 'mvn clean'
              }
         }
     }
