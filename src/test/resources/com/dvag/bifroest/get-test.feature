@@ -1,6 +1,6 @@
 Feature: Get Users
   Background:
-    * url 'http://localhost:8080'
+    * url 'https://www.google.de'
   Scenario: Get the information of all the users
 
     Given path ''
