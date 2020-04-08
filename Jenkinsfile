@@ -30,12 +30,12 @@ pipeline{
 
         stage ('Build') {
             steps {
-                bat 'mvn install'
+                   echo 'Build'
             }
         }
         stage('clean'){
              steps{
-                        bat 'mvn clean'
+                        echo 'Hallo World'
              }
         }
     }
